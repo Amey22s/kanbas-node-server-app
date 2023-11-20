@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vinubaburaj/kanas-node-server-app.git"
+    "url": "git+https://github.com/Amey22s/kanas-node-server-app.git"
   },
   "keywords": [
     "Node",
@@ -21,9 +21,9 @@
   "author": "Amey Gurunath Parab",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/vinubaburaj/kanas-node-server-app/issues"
+    "url": "https://github.com/Amey22s/kanas-node-server-app/issues"
   },
-  "homepage": "https://github.com/vinubaburaj/kanas-node-server-app#readme",
+  "homepage": "https://github.com/Amey22s/kanas-node-server-app#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
