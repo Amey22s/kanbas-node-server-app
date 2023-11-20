@@ -1,4 +1,4 @@
-[
+const assignments = [
     { "_id": "A101", "title": "Propulsion Assignment","description": "Assignment Description", "points": 100, "course": "RS101", "dueDate": "2023-11-02", "availableFromDate": "2023-10-22", "availableUntilDate": "2023-11-15" },
     { "_id": "A102", "title": "Combustion Analysis","description": "Assignment Description", "points": 100, "course": "RS101", "dueDate": "2023-11-02", "availableFromDate": "2023-10-22", "availableUntilDate": "2023-11-15" },
     { "_id": "A103", "title": "Nozzle Design Project","description": "Assignment Description", "points": 100, "course": "RS101", "dueDate": "2023-11-02", "availableFromDate": "2023-10-22", "availableUntilDate": "2023-11-15" },
@@ -12,4 +12,6 @@
     { "_id": "A402", "title": "Add CSS and Bootstrap styling","description": "Assignment Description", "points": 100, "course": "RS104", "dueDate": "2023-11-02", "availableFromDate": "2023-10-22", "availableUntilDate": "2023-11-15" },
     { "_id": "A403", "title": "Implement resuable components","description": "Assignment Description", "points": 100, "course": "RS104", "dueDate": "2023-11-02", "availableFromDate": "2023-10-22", "availableUntilDate": "2023-11-15" }
   ]
+
+export default assignments;
   

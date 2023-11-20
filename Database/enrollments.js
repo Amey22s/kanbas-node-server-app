@@ -1,4 +1,4 @@
-[ { "_id": "1", "user": "121", "course": "RS101" },
+const enrollments = [ { "_id": "1", "user": "121", "course": "RS101" },
   { "_id": "2", "user": "122", "course": "RS101" },
   { "_id": "3", "user": "123", "course": "RS101" },
   { "_id": "4", "user": "124", "course": "RS102" },
@@ -11,4 +11,6 @@
   { "_id": "8", "user": "126", "course": "RS103" },
   { "_id": "9", "user": "122", "course": "RS104" },
   { "_id": "9", "user": "123", "course": "RS104" },
-  { "_id": "9", "user": "126", "course": "RS104" } ]
+  { "_id": "9", "user": "126", "course": "RS104" } ];
+
+export default enrollments;

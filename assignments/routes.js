@@ -27,7 +27,7 @@ function AssignmentRoutes(app) {
     })
 
     app.put('/api/assignments/:assignmentId', (req, res) => {
-        const { assignmentId } = req.params;
+        const assignmentId  = req.params.assignmentId;
         const index = db.assignments.findIndex((a) => a._id === assignmentId);
         db.assignments[index] = { ...req.body };
         res.sendStatus(204);
