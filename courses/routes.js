@@ -8,7 +8,7 @@ function CourseRoutes(app) {
     app.post("/api/courses", (req, res) => {
         const course = {
             ...req.body,
-            id: new Date().getTime().toString()
+            _id: new Date().getTime().toString()
         };
         Database.courses.push(course);
         res.send(course);
